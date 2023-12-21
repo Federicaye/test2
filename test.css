@@ -1,0 +1,90 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    width: 200px;
+}
+
+/*SCRITTA IN ALTO*/
+
+header{
+    text-align: center;
+    color: chartreuse;
+    font-family: Arial;
+    font-size: 25px;
+    margin-block: 5px;
+}
+
+/*NAVIGAZIONE*/
+nav{
+    background-color: rgb(53, 199, 53);
+    text-align: center;
+    width: 670px;
+    padding: 10px;
+    margin: auto;
+}
+
+/*RIQUADRO NERO*/
+.container{
+    width: 700px;
+    margin: auto;
+    margin-block: 20px 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial;
+    padding: 60px;
+    border-radius: 15px;
+    line-height: 1.5;
+
+}   
+
+/*ELENCO MONOPATTINI*/
+main{
+    margin-block: 20px;
+
+}
+
+   
+/*TESTO BIANCO*/
+.white{
+    color: white;
+}
+
+/*NOME DI OGNI MONOPATTINO*/
+span.white{
+    font-size: 20px;
+
+}
+
+/*BARRE DELLA CARICA*/
+#caricaGino{
+    width: 100px; 
+    height: 20px;
+    background-color: rgb(216, 127, 10);
+    border-radius: 5px;
+}
+
+#caricamike{
+
+    width: 200px;
+    height: 20px;
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+
+#caricafede{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(224, 20, 20);
+    border-radius: 5px;
+
+}
+
+/* SEPARA UN MONOPATTINO DALL'ALTRO*/
+.monopattino{
+    margin-block: 15px;
+}
+
+
